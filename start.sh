@@ -17,7 +17,9 @@ color1=$(convertir_color "$ansi_color1")
 color2=$(convertir_color "$ansi_color2")
 color3=$(convertir_color "$ansi_color3")
 color4=$(convertir_color "$ansi_color4")
-
+echo ""
+echo ""
+echo ""
 echo -e "\e[35m
                                 ${color1}    ██████╗██╗     ${color2} ██████╗ ██╗   ██╗${color3}██████╗ ██╗     ${color4} ██████╗  ██████╗██╗  ██╗    
                                 ${color1}   ██╔════╝██║     ${color2}██╔═══██╗██║   ██║${color3}██╔══██╗██║     ${color4}██╔═══██╗██╔════╝██║ ██╔╝    
