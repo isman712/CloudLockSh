@@ -1,4 +1,4 @@
-ho convertir_color() {
+convertir_color() {
     local hex_color="$1"
     # Extraer los componentes de color rojo, verde y azul
     local red=$(printf "%d" 0x${hex_color:1:2})
